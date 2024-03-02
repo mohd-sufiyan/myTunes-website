@@ -1,0 +1,165 @@
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    box-sizing: border-box;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    background-color: #270082;
+    color: white;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.6);
+}
+.logo h1 {
+    margin: 1rem auto;
+}
+header {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 2;
+}
+.links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0.7rem;
+}
+
+/* Hero section */
+
+.hero {
+    background-image: url("/images/hero_image.png");
+    background-position: center;
+    background-size: cover;
+    color: white ;
+    padding: 25vh 0;
+}
+.container {
+    padding: 0 30px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: max(40px, 7vw);
+    margin: 0;
+    padding: 0;
+}
+.hero h2 {
+    font-size: max(23px, 2.5vw);
+}
+
+/* Trial section*/
+
+.trial-section {
+    background-color: #281154;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 30vw;
+}
+
+.music-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.ipad-iphone-image img {
+    width: 70vw;
+    position: relative;
+    bottom: 24vw;
+}
+.ipad-iphone-image {
+    height: 30vw;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+
+}
+.readmore-button {
+    background-color: #270082;
+    color: white;
+    width: fit-content;
+    padding: 8px 20px;
+}
+.mac-image img {
+    width: 75vw;
+}
+
+/* section 2 */
+
+.section2 {
+    background-image: url("/images/video.png");
+    padding-top: 35vh;
+    padding-bottom: 50vh;
+    color: white;
+}
+
+/* section3 */
+
+.section3 {
+    display: flex;
+    gap: 2rem;
+    margin: 5vw 30px;
+    align-items: center;
+}
+
+.gift-card-image {
+    flex: 1;
+}
+.gift-card-text-box   {
+    flex: 1.5;
+}
+
+.gift-card-image img {
+    width: min(100%, 30rem)
+}
+
+.redeem-button-text {
+    display: flex;
+    justify-content: center;
+    background-color: #270082;
+    color: white;
+    padding: 8px;
+    width: 8ch;
+    margin: 2rem 0;
+}
+
+/* footer */
+
+.footer-sec1 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #281154;
+    color: white;
+    padding: 2rem 1rem;
+}
+
+.footer-sec1 > div {
+    padding: 0 2rem;
+}
+
+.footer-sec1 h4 {
+    padding-bottom: 1rem;
+    margin-top: 0;
+    border-bottom: 2px solid white;
+}
+
+.footer-sec1 p {
+    margin: 0.3rem 0;
+}
+
+.footer-sec2 {
+    display: flex;
+    justify-content: center;
+    background-color: #270082;
+    color: white;
+    padding: 0.4rem 0;
+}
